@@ -189,5 +189,5 @@ out.close();
 ![20220421001521.png](https://eck.ink/usr/uploads/2022/04/2796749419.png#vwid=1085&vhei=332)
 
 一个简单的新闻浏览app，包含接口，修改自CSDN博主
-原文链接：https://blog.csdn.net/qq_34149526/article/details/80992341
-增添或修改内容如下：
+原作者链接：https://blog.csdn.net/qq_34149526/article/details/80992341
+我在原作者的基础上做了部分修改，拿来练手。网上太多卖这种源码的无良商家了，把别人免费的东西拿来售卖，而且细节上都没有一点改动。
