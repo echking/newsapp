@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <ImageView
+        android:id="@+id/login_reg"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/login_reg_bg" />
+
+
+    <ImageView
+        android:id="@+id/edit_bg"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="253dp"
+        android:src="@drawable/edit_bg" />
+    <ImageView
+        android:id="@+id/edit_bg2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/edit_bg"
+        android:src="@drawable/edit_bg" />
+
+    <ImageView
+        android:id="@+id/user_head"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="260dp"
+        android:src="@drawable/username" />
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="150dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="260dp"
+        android:layout_toRightOf="@+id/user_head"
+        android:hint="用户名"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="#B5B5B5"
+        android:textSize="15dp"
+        android:theme="@style/MyEditText" />
+
+    <ImageView
+        android:id="@+id/password"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/user_head"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/password" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="150dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/login_username"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/password"
+        android:hint="密码"
+        android:password="true"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="#B5B5B5"
+        android:textSize="15dp"
+        tools:ignore="Deprecated" />
+
+    <ImageView
+        android:id="@+id/login"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="430dp"
+        android:src="@drawable/edit_go"/>
+
+
+<CheckBox
+    android:id="@+id/cbPd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/password"
+    android:text="记住密码"
+    android:textColor="@color/colorGrey"
+    android:layout_marginLeft="155dp"
+    android:layout_marginTop="20dp"
+    android:checked="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_bg2"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="175dp"
+        android:text="忘记密码？"
+        android:textColor="@color/colorWhite"/>
+
+
+
+</RelativeLayout>
